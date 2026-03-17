@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Training outputs
+training/checkpoints/*.pt
+training/checkpoints/*.pth
+training/checkpoints/*.onnx
+!training/checkpoints/.gitkeep
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+
+# Compiled firmware
+firmware/**/*.bin
+firmware/**/*.hex
+firmware/**/*.elf
+
+# Large media (use Git LFS or external hosting)
+# media/demo_videos/*.mp4
+# media/demo_videos/*.avi
+
+# Jupyter
+.ipynb_checkpoints/
